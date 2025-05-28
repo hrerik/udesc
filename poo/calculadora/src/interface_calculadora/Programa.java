@@ -121,6 +121,8 @@ public class Programa extends javax.swing.JFrame {
             botao.addActionListener(digitarOp);
         }
 
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
     }
 
     /**
@@ -582,8 +584,7 @@ public class Programa extends javax.swing.JFrame {
                 num1Txt = num1Txt.substring(0, num1Txt.length() - 1);
                 try {
                     num1 = Integer.parseInt(num1Txt);
-                }
-                catch (NumberFormatException ex) {
+                } catch (NumberFormatException ex) {
                     num1 = 0;
                     num1Txt = "";
                 }
