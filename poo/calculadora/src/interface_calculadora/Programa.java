@@ -25,21 +25,37 @@ public class Programa extends javax.swing.JFrame {
     public int num2 = 0;
     public int result = 0;
     boolean digitandoPrimeiroNumero = true;
-
+    
+    public int tryNum1, tryNum2;
+    
     // Action Listener (ação para todos os botões)
     ActionListener digitarNumeros = new ActionListener() {
         @Override
         public void actionPerformed(ActionEvent e) {
             JButton botao = (JButton) e.getSource();
             String digito = botao.getText();
-
+            
+            try {
+                tryNum1 = Integer.parseInt(num1Txt);
+            }
+            catch(NumberFormatException ex) {
+                tryNum1 = 0;
+            }
+            
+            try {
+                tryNum2 = Integer.parseInt(num2Txt);
+            }
+            catch(NumberFormatException ex) {
+                tryNum2 = 0;
+            }
+            
             if (digitandoPrimeiroNumero) {
-                if (num1Txt.length() < 3) {
+                if (tryNum1 < 100 && tryNum1 > -100) {
                     num1Txt += digito;
                     num1 = Integer.parseInt(num1Txt);
                     Display.setText(num1Txt);
                 }
-            } else if (num2Txt.length() < 3) {
+            } else if (tryNum2 < 100 && tryNum2 > -100) {
                 num2Txt += digito;
                 num2 = Integer.parseInt(num2Txt);
                 Display.setText(num1Txt + " " + op + " " + num2Txt);
@@ -120,7 +136,7 @@ public class Programa extends javax.swing.JFrame {
         for (JButton botao : botoesOp) {
             botao.addActionListener(digitarOp);
         }
-
+        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
     }
