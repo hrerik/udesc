@@ -50,7 +50,7 @@ public class Programa extends javax.swing.JFrame {
             }
             
             if (digitandoPrimeiroNumero) {
-                if (tryNum1 < 100 && tryNum1 > -100) {
+                if (num1 < 100 && tryNum1 > -100) {
                     num1Txt += digito;
                     num1 = Integer.parseInt(num1Txt);
                     Display.setText(num1Txt);
