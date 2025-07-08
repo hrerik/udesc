@@ -51,6 +51,8 @@ Escolha uma opção:
 */
 
 #include <stdio.h>
+#include <stdlib.h>
+
 #define M 10 ///< Numero de linhas (conjuntos armazenados possiveis)
 #define N 10 ///< Numero de colunhas (elementos em cada conjunto)
 
@@ -149,12 +151,13 @@ int main()
     // DEFINICAO DE VARIAVEIS
 
     // "Base de dados" do programa. Linhas sao vetores, colunas sao elementos de cada vetor. Tamanhos no #define.
-    int matriz[M][N];
+    int *matriz = malloc(sizeof(int) * N * M);
     for (int i = 0; i < M; i++)
     {
         for (int j = 0; j < N; j++)
         {
-            matriz[i][j] = 0;
+            //matriz[i][j] = 0;
+            *(matriz + i * M + j) = 0;
         }
         
     }
@@ -308,6 +311,7 @@ int main()
         }
     }
 
+    free(matriz);
     return 0;
 }
 
