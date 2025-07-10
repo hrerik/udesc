@@ -1,0 +1,85 @@
+Registros: 14
+---
+Data: 08/07/2025
+Inicio: 08:00
+Fim: 09:00
+Descricao: Consulta medica
+Local: Clinica Saude Total
+---
+Data: 10/07/2025
+Inicio: 06:00
+Fim: 09:01
+Descricao: lol
+Local: bah
+---
+Data: 10/07/2025
+Inicio: 09:30
+Fim: 11:00
+Descricao: Aula de programacao
+Local: Empresa TechSolutions
+---
+Data: 10/07/2025
+Inicio: 09:30
+Fim: 11:00
+Descricao: Reuniao de trabalho
+Local: Sala de conferencias
+---
+Data: 12/07/2025
+Inicio: 10:00
+Fim: 14:00
+Descricao: Smooth operator
+Local: Dance floor
+---
+Data: 12/07/2025
+Inicio: 14:00
+Fim: 16:00
+Descricao: Aula de programacao
+Local: UDESC - Laboratorio 1
+---
+Data: 15/07/2025
+Inicio: 10:00
+Fim: 11:30
+Descricao: Entrevista de emprego
+Local: Empresa TechSolutions
+---
+Data: 18/07/2025
+Inicio: 19:00
+Fim: 22:00
+Descricao: Jantar de aniversario
+Local: Restaurante Bella Vista
+---
+Data: 20/07/2025
+Inicio: 08:30
+Fim: 10:00
+Descricao: Dentista
+Local: Clinica Odontologica
+---
+Data: 25/07/2025
+Inicio: 11:00
+Fim: 12:00
+Descricao: Apresentacao TCC
+Local: UDESC - Auditorio
+---
+Data: 28/07/2025
+Inicio: 16:30
+Fim: 18:00
+Descricao: Curso de ingles
+Local: Instituto de idiomas
+---
+Data: 30/07/2025
+Inicio: 13:00
+Fim: 14:30
+Descricao: Almoco de negocios
+Local: Restaurante Executivo
+---
+Data: 02/08/2025
+Inicio: 09:00
+Fim: 10:30
+Descricao: Consulta medica
+Local: Hospital Regional
+---
+Data: 05/08/2025
+Inicio: 20:00
+Fim: 23:00
+Descricao: Show de musica
+Local: Centro de eventos
